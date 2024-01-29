@@ -1,0 +1,17 @@
+{
+  "name": "design-patterns-exercises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "design-patterns"
+  ],
+  "author": "David Berri",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
