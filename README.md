@@ -36,3 +36,23 @@
 #### ❌ Cons
 - Similar to Factory Method
 - Adds more complexity to the codebase with an increased number of classes
+
+
+### Builder
+[Read more](https://refactoring.guru/design-patterns/builder)
+
+#### ⚙️ When to use it
+- When the object construction is complex and involves a lot of steps and configurations and you want to avoid constructors with too many parameters
+- When the construction can be broken down into a series of steps and you want to allow clients to configure each step
+- When there are multiple variations/representations of a complex object and you want to encapsulate the construction details
+
+#### ✅ Pros
+- Separation of concerns by allowing more modular code as different components of the consutrction process are encapsulated in separate builder classes
+- Step-by-step construction
+- Reusability
+- Flexibility in object creation and easier configuration
+- Unlike other creational patterns, builder lets you construct products that don't follow the common interface.
+
+#### ❌ Cons
+- Introducing builders and directors can add complexity to the codebase, so for straight forward scenarios, the builder
+pattern can be considered over-engineering
